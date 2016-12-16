@@ -1,0 +1,30 @@
+{
+	"_comment": "always put the red ship last",
+	"ships": [
+		{
+			"color": "Orange",
+			"position": [2,1]
+		},
+		{
+			"color": "Green",
+			"position": [2,5]
+		},
+		{
+			"color": "Purple",
+			"position": [4,1]
+		},
+				{
+			"color": "Yellow",
+			"position": [4,5]
+		},
+				{
+			"color": "Blue",
+			"position": [5,3]
+		},
+		{
+			"color": "Red",
+			"position": [1,3]
+		}
+	]
+
+}

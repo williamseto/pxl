@@ -1,0 +1,21 @@
+
+run as so:
+
+./lunar-lockout.py -f prob36.json -r 2
+
+There are 2 arguments. One for the input file, and the other specifying the representation (1 or 2)
+
+
+The problem files are structured like so:
+{
+	"ships": [
+		{
+			"color": "Orange",
+			"position": [1,5]
+		},
+		...
+
+}
+
+There is only one key "ships", and it contains a list of elements for the position of each ship. Each ship has a color and a position specifying (row, column) from the top left corner of the board. The coordinates start from 1. Based on how the planner is hardcoded, the location of the red ship should always come last.
+

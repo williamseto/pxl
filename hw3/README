@@ -1,0 +1,6 @@
+The library file (libmdp-simulation.a) has been generated for g++ version 4
+on a 32-bit machine.
+
+To test:
+g++ -o test test.cc -l mdp-simulation -L.
+./test
